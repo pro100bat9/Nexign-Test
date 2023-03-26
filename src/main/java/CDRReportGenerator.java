@@ -16,8 +16,8 @@ public class CDRReportGenerator {
     private static final String stringTotalCostForReport =
             "|                                           Total Cost: |     %.2f rubles\t|\n";
     private static final String firstStringFromTable =
-            "| Call Type |   Start Time        |     End Time        | Duration | Cost   |\n";
-    private static final int valueForRepeat = 77;
+            "| Call Type |   Start Time        |     End Time        | Duration | Cost   \t|\n";
+    private static final int valueForRepeat = 81;
 
     public static void generateReport(Map<String, User> users) {
         for(Map.Entry<String, User> user: users.entrySet()) {

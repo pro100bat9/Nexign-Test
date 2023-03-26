@@ -1,5 +1,3 @@
-//70371323024
-//70582296722
 import entities.User;
 import java.io.IOException;
 import java.text.ParseException;
